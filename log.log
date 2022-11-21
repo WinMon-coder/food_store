@@ -1,0 +1,34 @@
+2022-11-21 15:30:18.465  INFO 77982 --- [restartedMain] com.ojt.bs.FoodStoreApplication          : Starting FoodStoreApplication using Java 11.0.16 on Wins-MacBook-Air.local with PID 77982 (/Users/winmon/eclipse-bsCamp-spring/FoodStore/target/classes started by winmon in /Users/winmon/eclipse-bsCamp-spring/FoodStore)
+2022-11-21 15:30:18.467  INFO 77982 --- [restartedMain] com.ojt.bs.FoodStoreApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-11-21 15:30:18.602  INFO 77982 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-21 15:30:18.602  INFO 77982 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-21 15:30:20.228  INFO 77982 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-21 15:30:20.267  INFO 77982 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2022-11-21 15:30:21.754  INFO 77982 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-11-21 15:30:21.790  INFO 77982 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-21 15:30:21.791  INFO 77982 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-21 15:30:21.933  INFO 77982 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-21 15:30:21.934  INFO 77982 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3329 ms
+2022-11-21 15:30:22.349  INFO 77982 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-21 15:30:22.518  INFO 77982 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-21 15:30:23.109  INFO 77982 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-21 15:30:23.446  INFO 77982 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-21 15:30:24.041  INFO 77982 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-21 15:30:24.086  INFO 77982 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-21 15:30:24.687  INFO 77982 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-21 15:30:24.715  INFO 77982 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-21 15:30:24.812  WARN 77982 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-21 15:30:25.072 DEBUG 77982 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-21 15:30:25.265 DEBUG 77982 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2022-11-21 15:30:25.333 DEBUG 77982 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-11-21 15:30:25.367 DEBUG 77982 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-21 15:30:25.635  WARN 77982 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7893504b-9c3c-442a-aa78-18ba1c678e5b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-11-21 15:30:26.028  INFO 77982 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2c47756b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d2071db, org.springframework.security.web.context.SecurityContextPersistenceFilter@6da05e00, org.springframework.security.web.header.HeaderWriterFilter@3197747c, org.springframework.security.web.csrf.CsrfFilter@6fcff49e, org.springframework.security.web.authentication.logout.LogoutFilter@4e8f54d9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d963dc1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5b9dee49, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@126958f6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@710c0f4f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24767b01, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23095ea1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1425671c, org.springframework.security.web.session.SessionManagementFilter@2732cb50, org.springframework.security.web.access.ExceptionTranslationFilter@1be937a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@300d1659]
+2022-11-21 15:30:26.109  INFO 77982 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-21 15:30:26.197  INFO 77982 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-11-21 15:30:26.220  INFO 77982 --- [restartedMain] com.ojt.bs.FoodStoreApplication          : Started FoodStoreApplication in 8.788 seconds (JVM running for 16.204)
